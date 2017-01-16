@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#00c957"
+        android:id="@+id/toolBar"
+        >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/back"
+            android:onClick="oncClickBack"
+            />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="38dp"
+            android:inputType="text"
+            android:textSize="15sp"
+            android:textColorHint="#00c957"
+            android:id="@+id/search_information"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edittext_shape"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"
+            android:id="@+id/actual_search"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:layout_gravity="right"
+            android:layout_marginEnd="10dp"
+            />
+    </android.support.v7.widget.Toolbar>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_listView"
+        android:layout_below="@+id/toolBar"
+        />
+</RelativeLayout>

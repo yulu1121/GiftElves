@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">我的礼包精选</string>
+    <string name="information">礼包说明</string>
+    <string name="giftInformation"> "宠物小葫芦、还童丹*5、10万铜币、宠物经验心得*2、藏宝图、荆棘之刺、古藤甲"</string>
+    <string name="getGift"> "长按主界面的【奖励】，
+        在界面输入礼包兑换码，即可获得礼包使用条件：
+        1.同新手卡，与其他礼包不能同时使用
+        2.同帐号下所有角色都能使用礼包
+        3.一个角色只能使用一个礼包
+        4.一个礼包只能被一个角色使用"</string>
+</resources>

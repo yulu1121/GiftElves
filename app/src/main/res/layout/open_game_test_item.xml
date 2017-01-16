@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/gift"
+        android:layout_margin="8dp"
+        android:id="@+id/open_test_image"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_test_name"
+        android:text="开服"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_alignTop="@+id/open_test_image"
+        android:layout_toEndOf="@+id/open_test_image" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/open_company"
+        android:text="腾讯"
+        android:layout_below="@+id/open_test_name"
+        android:layout_toEndOf="@+id/open_test_image"
+        android:paddingTop="3dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12-28-30"
+        android:textColor="#00c957"
+        android:layout_below="@+id/open_company"
+        android:layout_toEndOf="@+id/open_test_image"
+        android:layout_alignBottom="@+id/open_test_image"
+        android:id="@+id/open_test_time"
+        android:paddingTop="3dp"
+        />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:id="@+id/open_testLook_btn"
+        android:layout_alignParentRight="true"
+        android:text="查看"
+        android:background="@drawable/button_shape"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="10dp"
+        />
+</RelativeLayout>

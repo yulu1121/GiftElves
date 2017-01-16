@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/hit_third_image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:scaleType="fitXY"
+        android:src="@mipmap/def_loading" />
+    <LinearLayout
+        android:id="@+id/hit_third_liner"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/hit_third_image"
+        android:alpha="0.55"
+        android:background="#000000"
+        android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/hit_third_news"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2.3"
+        android:gravity="center_vertical"
+        android:text="新闻周刊第201期"
+        android:paddingLeft="20dp"
+        android:textColor="#fafff0"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/hit_third_addtime"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1.7"
+        android:drawableLeft="@mipmap/g_biao"
+        android:text="2010-11-21"
+        android:paddingLeft="20dp"
+        android:textColor="#fafff0"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+</RelativeLayout>
